@@ -7,4 +7,5 @@ package com.mycompany.oopgroupassignment;
 public class Order {
     private int orderNo;
     private Double orderCost;
+    private String orderCust;
 }
