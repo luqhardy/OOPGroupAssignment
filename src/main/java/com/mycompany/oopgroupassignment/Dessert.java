@@ -4,18 +4,22 @@ package com.mycompany.oopgroupassignment;
  * MOHAMED LUQMAN HADI BIN MOHAMED SUHAIRI 2210855
  * Object-Oriented Programming Group Project
  */
-public class Food {
+public class Dessert extends Food {
     private String foodImagePath;
     private String foodName;
     private Double foodPrice;
-    private int foodQty; //use to count qty ordered
     private int foodCalories;
     private String foodDesc;
-    public Food(String name, String desc, double price) {
+    /*
+    public Drink(String name, String desc, double price) {
             this.foodName = name;
             this.foodDesc = desc;
             this.foodPrice = price;
-        }
+        }*/
+
+    public Dessert(String name, String desc, double price) {
+        super(name, desc, price);
+    }
            
     //getter and setter for food items
         public String getName() {
